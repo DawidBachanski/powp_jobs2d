@@ -7,7 +7,7 @@ public class SetPositionCommand implements DriverCommand{
     private int x;
     private int y;
 	
-	public void SetPositionCommand(Job2dDriver driver, int x, int y) {
+	public SetPositionCommand(Job2dDriver driver, int x, int y) {
 		this.driver = driver;
 		this.x = x;
 		this.y = y;
